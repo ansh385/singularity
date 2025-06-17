@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.buttosn {
+    font-size: 10px;
+}
+
+.logo {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+    padding-left: 160px;
+}
+
+.marquee{
+    position: relative;
+}
+
+.marq-img{
+    position: absolute;
+    top: 430px;
+    left: 0;
+    width: 100%;
+}
+
+.temp{
+    height: 518px;
+}
+
+.classy{
+    font-size: 80px;
+}
+
+.singularity-space{
+    height: 1000px;
+    width: 550px;
+    object-fit: cover;
+    padding-top:230px ;
+    margin-left: 80px;
+}
+
+.singularity-boulders{
+    width: 700px;
+    top: 450px;
+    position: absolute;
+    right: 300px;
+}
+
+.top-notch{
+    position: relative;
+}
+
+.white-line{
+    position: absolute;
+    left: 450px;
+    top: 300px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .marquee p{
+        font-size: 350px !important;
+    }
+
+    .temp{
+        height: 98px;
+        background-color: black;
+    }
+
+    .classy{
+        font-size: 50px;
+    }
+
+    #myinput{
+        margin: 0;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .marquee p{
+        font-size: 350px !important;
+    }
+
+    .temp{
+        height: 98px;
+    }
+
+    .classy{
+        font-size: 50px;
+    }
+
+    #myinput{
+        margin: 0;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .marquee p{
+        font-size: 350px !important;
+    }
+
+    .temp{
+        height: 98px;
+    }
+
+    #myinput{
+        margin: 0;
+        width: 80%;
+    }
+
+    .classy{
+        font-size: 50px;
+    }
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+  /* border: 2px solid white; */
+  margin-top: -100px;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 100s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+  color: white;
+  font-family: Space Mono, monospace;
+  font-weight: 600;
+  font-size: 500px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.nav-button:hover{
+ background-color: #DCDCDC !important;
+ color: black !important;
+}
+
+.h-1{
+    height: 600px;
+}
+
+.h-2{
+    height: 460px;
+}
+
+.img-sec{
+    height: 1000PX !important;
+    width: 1000px !important;
+    position: absolute;
+    right: 50px;
+    top: 170px;
+    object-fit: cover;
+}
+
+.third-sec{
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-top: 60px !important;
+    font-family: Space Mono, monospace;
+    margin: auto;
+}
+
+#myinput{
+    width: 55%;
+    /* border: 2px solid red; */
+    height: 59px;
+    margin: auto;
+}
